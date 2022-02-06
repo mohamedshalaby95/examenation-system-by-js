@@ -15,6 +15,14 @@
   align-items: center;
   padding: 20px 0px;
 }
+.navbar-brand{
+color:#01987a !important;
+font-weight: 900;
+}
+#user-name{
+  color:#01987a !important;
+font-weight: 900;
+}
 
 
 

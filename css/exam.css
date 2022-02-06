@@ -9,7 +9,14 @@
   align-items: center;
   padding: 20px 0px;
 }
-
+.navbar-brand{
+  color:#01987a !important;
+  font-weight: 900;
+  }
+  .navbar-nav{
+    color:#01987a !important;
+  font-weight: 900;
+  }
 
 .exams-navbar {
   background-color: gray;

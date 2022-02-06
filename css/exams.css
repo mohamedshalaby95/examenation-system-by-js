@@ -16,9 +16,14 @@
   padding: 20px 0px;
 }
 
-#image-logo {
-  width: 20%;
-}
+.navbar-brand{
+  color:#01987a !important;
+  font-weight: 900;
+  }
+ .navbar-nav{
+    color:#01987a !important;
+  font-weight: 900;
+  }
 
 table {
   width: 100%;

@@ -7,7 +7,14 @@
 .main-nav-cation {
   background-color: grey;
 }
-
+.navbar-brand{
+  color:#01987a !important;
+  font-weight: 900;
+  }
+  .navbar-nav{
+    color:#01987a !important;
+  font-weight: 900;
+  }
 .nav-bar {
   display: flex;
   justify-content: space-between;
