@@ -1,0 +1,160 @@
+.container-login {
+  background-image: url(../images/christin-hume-mfB1B1s4sMc-unsplash.jpg);
+  z-index: 5;
+  position: relative;
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+}
+
+.heading-login {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 700;
+}
+.form-caption {
+  position: absolute;
+  top: 10%;
+  right: 30%;
+  padding: 10px;
+  background-color: white;
+  width: 40%;
+
+  border-radius: 20px;
+}
+
+input {
+  margin: 10px !important;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  width: 80%;
+}
+
+.caption {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+span {
+  display: none;
+  font-weight: 900;
+ 
+  border-radius: 20px;
+  padding: 2px;
+  width: 100%;
+  text-align: center;
+ color:#ffcc00;
+}
+.inValid {
+  border: 2px solid red;
+  transition: 1s;
+}
+
+.valid {
+  border: 2px solid blue;
+  transition: 1s;
+}
+.btns {
+  width: 8rem;
+  text-align: center;
+  background-color: #01987a;
+  color: white;
+  padding: 10px;
+
+  font-weight: 700;
+  position: relative;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn-login::before {
+  content: "";
+  width: 4rem;
+  height: 4rem;
+  background-color: #01987a;
+  position: absolute;
+  top: -0.9rem;
+  left: -3.5rem;
+  border-radius: 50%;
+}
+
+.icon-login {
+  position: absolute;
+  right: 170px;
+  top: 3px;
+  padding: 10px;
+  color: #01987a;
+  border-radius: 50%;
+  background-color: white;
+}
+.footer{
+  text-align: center;
+
+  background-color:#01987a;
+  color: white;
+  overflow: auto;
+
+
+}
+
+.footer h5{
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.footer .fa-2x{
+  margin: 30px 0px 30px;
+ 
+}
+.social-links{
+  text-decoration: none !important;
+ color: white !important;
+ margin-left: 20px;
+}
+
+@media screen and (max-width: 769px) {
+  .login-container img {
+    height: 100vh;
+    object-fit: cover !important;
+  }
+  input{
+   
+    padding:5px 15px;
+  }
+  .btns{
+    margin-left: 20%;
+  }
+ 
+}
+
+@media screen and (max-width: 426px) {
+  .login-container img {
+    height: 100vh;
+    object-fit: cover !important;
+  }
+
+  .form-caption {
+    position: absolute;
+    top: 15%;
+    right: 10px;
+    padding: 15px;
+    background-color: white;
+    width: 90%;
+
+    border-radius: 20px;
+  }
+  .btn-login {
+    margin-left: 30px;
+  }
+  input{
+   
+    padding:5px 10px;
+  }
+}

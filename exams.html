@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/exams.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="exams-navbar navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            id="image-logo"
+            class="img-fluid"
+            src="images/online-education-logo-design-260nw-1282526215.jpg"
+            alt="logoexam system"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-5">
+              <div id="inf-login">chooice exam</div>
+            </li>
+            <li class="nav-item me-5">
+              <i class="fas fa-user"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <!-- start caption data -->
+
+    <div class="container">
+      <h6 id="result-heading" class="text-center mt-5 mb-3"></h6>
+      <table class="w-100 mt-5 mb-5">
+        <thead>
+          <th width="20%">exam name</th>
+          <th width="10%">time</th>
+          <th width="20%">question num</th>
+          <th width="20%">level</th>
+          <th width="30%">go exam</th>
+        </thead>
+        <tbody id="result-row"></tbody>
+      </table>
+
+      <div
+        id="btn-back"
+        onclick="goBack()"
+        class="mb-3 mt-5 text-end btn  float-end clearfix"
+      >
+        go back
+      </div>
+      <div class="clearfix"></div>
+    </div>
+
+    <!-- end caption data -->
+
+    <footer class="footer">
+      <h4 class="mt-5 mb-2">Develop And Design By</h4>
+      <h5 >Mohamed Elsayed Shalaby</h5>
+  
+    <a  class="social-links" href="https://wa.me/+002-(011)48572460">  <i class="fab fa-whatsapp fa-2x"></i></a>  
+    <a  class="social-links" href="https://mail.google.com/mail/u/?authuser=mohamedshalaby19595@gmail.com">    <i class="fab fa-google-plus-square fa-2x"></i></a>
+    <a  class="social-links"href="https://github.com/mohamedshalaby95"><i class="fab fa-github-square fa-2x"></i></a>    
+       
+     </footer>
+
+    <script src="js/exams.js"></script>
+  </body>
+</html>

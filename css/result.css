@@ -1,0 +1,98 @@
+:root {
+  padding: 0;
+  margin: 0;
+}
+
+/* navbar start */
+.main-nav-cation {
+  background-color: grey;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 20px 0px;
+}
+
+#image-logo {
+  width: 20%;
+}
+#result-heading {
+  font-weight: 900;
+  color: #01987a;
+ 
+}
+
+table {
+  width: 100%;
+  border-bottom: 4px solid #01987a;
+  border-left: 4px solid #01987a;
+  border-right: 4px solid #01987a;
+  text-align: center;
+  
+}
+
+th {
+  background-color: #01987a;
+  color: white;
+  font-weight: 900;
+  padding: 10px;
+  text-transform: capitalize;
+}
+tr,
+td {
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+#btn-back {
+  text-transform: capitalize;
+  float: right;
+  background-color:#01987a ;
+  color:white;
+  font-weight: 900;
+}
+#btn-back:hover{
+  color: black;
+  transition-duration: 1s ;
+}
+
+.footer{
+  text-align: center;
+
+  background-color:#01987a;
+  color: white;
+  overflow: auto;
+
+
+}
+
+.footer h5{
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.footer .fa-2x{
+  margin: 30px 0px 30px;
+ 
+}
+.social-links{
+  text-decoration: none !important;
+ color: white !important;
+ margin-left: 20px;
+}
+@media screen and (max-width: 769px) {
+
+  th{
+    font-size: .7rem;
+
+    font-weight: 500;
+  }
+
+}
+@media screen and (max-width: 426px) {
+
+  
+}

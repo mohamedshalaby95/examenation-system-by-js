@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/exam.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+
+  
+
+    <nav class="exams-navbar navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" >  Exam system</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-5">
+              <div id="inf-login"></div>
+            </li>
+            <li class="nav-item me-5">
+              <i class="fas fa-user"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- start exam layout  -->
+
+    <section class="exam-container">
+      <div class="container">
+        <h2 id="exam-name"></h2>
+
+        <div>
+          <span>
+            <progress
+              id="timer-exam"
+              class="mt-2 mb-1 ms-5"
+              id="file"
+              value="0"
+              max="100"
+            ></progress>
+          </span>
+          <span id="timer" class="ms-2 p-2"> </span>
+        </div>
+
+        <div class="row">
+          <div class="col-md-7">
+            <div class="container-qu-ans ms-5 mt-3 mb-3">
+              <div id="question" class="question w-100  "></div>
+              <div id="chooices" class="mb-5 w-100 "></div>
+              
+            </div>
+            <div class="buttons flex-wrap mb-3">
+              <div
+                class="ms-5 btns-exam next-priv-button d-flex justify-content-between flex-wrap"
+                >
+                <button id="prev-button" class="btn prev-button">
+                  prev
+                  <i
+                    class="fas fa-long-arrow-alt-left fa-x icon-buttons-prev"
+                  ></i>
+                </button>
+                <button onclick="markButton()" class="btn mark-button">
+                  mark 
+                </button>
+                <button
+                  onclick="nextquestion(this)"
+                  id="next-button"
+                  class="btn next-button me"
+                >
+                  next
+                  <i class="icon-buttons-next fas fa-long-arrow-alt-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center flex-wrap   ">
+              <!-- <button onclick="markButton()" class="btn mark-button">
+                mark <i class="frist-arow fas fa-long-arrow-alt-right"></i>
+              </button> -->
+
+              <button
+                id=" "
+                class="btn btn-submit ms-5 mb-2"
+                onclick="submit()"
+              >
+                submit 
+                <i class="hover-arow fas fa-angle-double-right"></i>
+              </button>
+            </div>
+          </div>
+          <!-- <div class="col-md-1"></div> -->
+          <div class="col-md-5 mt-3 container-mark">
+            <table class="table-content-mark w-100">
+              <!-- <caption class="bg-dark text-center">Mark Question</caption> -->
+              <h6 class="text-center mt-4  mb-3">Mark Question</h6>
+              <thead id="">
+                <th class="">#</th>
+                <th>Access</th>
+              </thead>
+              <tbody id="mark-content"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end exam layout  -->
+
+    <footer class="footer">
+      <h4 class="mt-5 mb-2">Develop And Design By</h4>
+      <h5 >Mohamed Elsayed Shalaby</h5>
+  
+    <a  class="social-links" href="https://wa.me/+002-(011)48572460">  <i class="fab fa-whatsapp fa-2x"></i></a>  
+    <a  class="social-links" href="https://mail.google.com/mail/u/?authuser=mohamedshalaby19595@gmail.com">    <i class="fab fa-google-plus-square fa-2x"></i></a>
+    <a  class="social-links"href="https://github.com/mohamedshalaby95"><i class="fab fa-github-square fa-2x"></i></a>    
+       
+     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/exam.js"></script>
+  </body>
+</html>

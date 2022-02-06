@@ -1,0 +1,148 @@
+:root {
+  padding: 0;
+  margin: 0;
+}
+
+/* navbar start */
+.main-nav-cation {
+  background-color: grey;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 20px 0px;
+}
+
+
+
+.btns {
+  width: 8rem;
+  text-align: center;
+  background-color: #01987a;
+  color: white;
+  padding: 10px;
+
+  font-weight: 700;
+  position: relative;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn-login::before {
+  content: "";
+  width: 4rem;
+  height: 4rem;
+  background-color: #F5F5F5;
+  position: absolute;
+  top: -0.9rem;
+  left: -3.5rem;
+  border-radius: 50%;
+}
+.btn-rigester::before {
+  content: "";
+  width: 4rem;
+  height: 4rem;
+  background-color: #01987a;
+  position: absolute;
+  top: -0.9rem;
+  left: -3.5rem;
+  border-radius: 50%;
+}
+.icon-login {
+  position: absolute;
+  left: -54px;
+  top: 0px;
+  padding: 0.7rem;
+  background-color: black;
+  border-radius: 50%;
+  background-color: #01987a;
+}
+.icon-rigister {
+  position: absolute;
+  left: -55px;
+  top: -5px;
+  padding: 0.8rem;
+  color: #01987a;
+  border-radius: 50%;
+  background-color: white;
+}
+/* navbar end */
+.frist-section {
+  background-image: url(../images/EducationLaptop01.jpg);
+  z-index: 5;
+  position: relative;
+  background-size: cover;
+  background-position: right;
+  height: 100vh;
+  position: relative;
+}
+.choice-exame {
+
+ position: absolute;
+  background-color: #01987a;
+  padding: 8px;
+  color: white;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 20px;
+  top:50%;
+  left:20%;
+  
+}
+.choice-exame:hover{
+
+  color:black;
+  transition-duration: 1s;
+}
+/*footer start style*/
+.footer{
+  text-align: center;
+
+  background-color:#01987a;
+  color: white;
+  overflow: auto;
+
+
+}
+
+.footer h5{
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.footer .fa-2x{
+  margin: 30px 0px 30px;
+ 
+}
+.social-links{
+  text-decoration: none !important;
+ color: white !important;
+ margin-left: 20px;
+}
+/*footer end style*/
+@media screen and (max-width: 426px) {
+  .btns {
+    margin-top: 40px;
+    margin-left: 60px;
+  }
+  .btn-rigester {
+    margin-top: 50px !important;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .btns {
+    margin-top: 40px;
+    margin-left: 60px;
+  }
+  .btn-rigester {
+    margin-top: 50px;
+  }
+  .frist-section .caption {
+    display: none;
+  }
+}
