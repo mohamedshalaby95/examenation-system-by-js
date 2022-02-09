@@ -6,7 +6,7 @@
 /* navbar start */
 .navbar{
 
-  background-color: #01987a !important;
+
 }
 
 .nav-bar {
@@ -17,7 +17,7 @@
   padding: 20px 0px;
 }
 .navbar-brand{
-  color:white !important;
+  color:#01987a!important;
   font-weight: 900;
 }
 #user-name{

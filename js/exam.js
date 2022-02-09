@@ -312,7 +312,7 @@ function markButton() {
     } else {
       markSelect[numberQuestion] = numberQuestion;
       document.getElementById("mark-content").innerHTML += `
-    <tr id=${`${numberQuestion}tr`}>
+    <tr class="text-light" id=${`${numberQuestion}tr`}>
     
     <td> ${Number(numberQuestion) + 1}</td>
  

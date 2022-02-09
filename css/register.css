@@ -40,7 +40,7 @@ input {
   margin: 10px !important;
   border: 1px solid black;
   border-radius: 20px;
-  padding: 5px 15px;
+  padding: 5px 15px !important;
   width: 80%;
  
   
@@ -95,8 +95,8 @@ span {
   text-align: center;
   background-color: #01987a;
   color: white;
-  padding: 10px;
-
+  padding: 5px;
+   margin-bottom: 50px !important;
   font-weight: 700;
   position: relative;
   margin-top: 20px;
@@ -109,7 +109,7 @@ span {
   height: 4rem;
   background-color: #01987a;
   position: absolute;
-  top: -0.6rem;
+  top: -0.8rem;
   left: -3.5rem;
   border-radius: 50%;
 }
@@ -117,7 +117,7 @@ span {
 .icon-rigister {
   position: absolute;
   right: 8.5rem;
-  top: .3rem;
+  top: .1rem;
   padding: 10px;
   color: #01987a;
   border-radius: 50%;
