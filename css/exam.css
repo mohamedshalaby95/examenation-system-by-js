@@ -9,8 +9,23 @@
   align-items: center;
   padding: 20px 0px;
 }
+.exams-navbar{
+
+  background-color: #01987a !important;
+}
+
+.navbar-light .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#inf-login{
+  color: white;
+}
+.fa-user{
+  color: white;
+}
 .navbar-brand{
-  color:#01987a !important;
+  color: white !important;
   font-weight: 900;
   }
   .navbar-nav{
@@ -18,9 +33,7 @@
   font-weight: 900;
   }
 
-.exams-navbar {
-  background-color: gray;
-}
+
 .exam-caption {
   text-align: center;
   padding: 10px 40px;
@@ -48,7 +61,7 @@
 
 progress {
   border: none;
-  width: 80%;
+  width: 85%;
   height: 5px;
 }
 
@@ -181,7 +194,7 @@ table {
 th,
 tr,td
  {
-  border: 1px solid #544179;
+
 }
 th{
   padding: 5px;
@@ -194,6 +207,32 @@ th{
   display: flex;
   justify-content: space-around;
   padding: 10px;
+}
+
+.footer{
+  text-align: center;
+
+  background-color:#01987a;
+  color: white;
+  overflow: auto;
+  margin-top: 50px;
+
+
+}
+
+.footer h5{
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.footer .fa-2x{
+  margin: 30px 0px 30px;
+ 
+}
+.social-links{
+  text-decoration: none !important;
+ color: white !important;
+ margin-left: 20px;
 }
 @media screen and (max-width: 769px) 
 
@@ -256,33 +295,13 @@ font-size: .7rem;
     width: 100%;
   }
   
-}
-.footer{
-  text-align: center;
-
-  background-color:#01987a;
-  color: white;
-  overflow: auto;
-  margin-top: 50px;
 
 
+progress{
+  width: 82%;
 }
 
-.footer h5{
-  font-weight: 900;
-  font-size: 30px;
 }
-
-.footer .fa-2x{
-  margin: 30px 0px 30px;
- 
-}
-.social-links{
-  text-decoration: none !important;
- color: white !important;
- margin-left: 20px;
-}
-
 @media screen and (max-width: 426px) {
   .ms-5 {
     margin-left: 0 !important;
@@ -317,7 +336,7 @@ font-size: .7rem;
     width:100%
   }
   progress{
-    width:60%
+    width:77%
   }
 
 }

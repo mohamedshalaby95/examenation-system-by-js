@@ -109,15 +109,15 @@ span {
   height: 4rem;
   background-color: #01987a;
   position: absolute;
-  top: -0.9rem;
+  top: -0.6rem;
   left: -3.5rem;
   border-radius: 50%;
 }
 
 .icon-rigister {
   position: absolute;
-  right: 170px;
-  top: 3px;
+  right: 8.5rem;
+  top: .3rem;
   padding: 10px;
   color: #01987a;
   border-radius: 50%;

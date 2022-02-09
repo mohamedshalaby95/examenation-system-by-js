@@ -67,7 +67,7 @@ span {
   text-align: center;
   background-color: #01987a;
   color: white;
-  padding: 10px;
+  padding: 7px;
 
   font-weight: 700;
   position: relative;
@@ -88,8 +88,8 @@ span {
 
 .icon-login {
   position: absolute;
-  right: 170px;
-  top: 3px;
+  right: 8.5rem;
+  top: .1rem;
   padding: 10px;
   color: #01987a;
   border-radius: 50%;

@@ -4,26 +4,30 @@
 }
 
 /* navbar start */
-.main-nav-cation {
-  background-color: grey;
+.navbar{
+
+  background-color: #01987a !important;
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-between;
-
+  
   align-items: center;
   padding: 20px 0px;
 }
 .navbar-brand{
-color:#01987a !important;
-font-weight: 900;
+  color:white !important;
+  font-weight: 900;
 }
 #user-name{
-  color:#01987a !important;
-font-weight: 900;
+  color:white!important;
+  font-weight: 900;
 }
 
+.navbar-light .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
 
 
 .btns {
@@ -31,7 +35,7 @@ font-weight: 900;
   text-align: center;
   background-color: #01987a;
   color: white;
-  padding: 10px;
+  padding: 7px;
 
   font-weight: 700;
   position: relative;
@@ -61,7 +65,7 @@ font-weight: 900;
 }
 .icon-login {
   position: absolute;
-  left: -54px;
+  left: -47px;
   top: 0px;
   padding: 0.7rem;
   background-color: black;
@@ -70,7 +74,7 @@ font-weight: 900;
 }
 .icon-rigister {
   position: absolute;
-  left: -55px;
+  left: -47px;
   top: -5px;
   padding: 0.8rem;
   color: #01987a;

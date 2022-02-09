@@ -4,13 +4,24 @@
 }
 
 /* navbar start */
-.main-nav-cation {
-  background-color: grey;
+.exams-navbar{
+
+  background-color: #01987a !important;
+}
+#inf-login{
+  color: white;
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+.fa-user{
+  color: white;
 }
 .navbar-brand{
-  color:#01987a !important;
+  color: white !important;
   font-weight: 900;
   }
+
   .navbar-nav{
     color:#01987a !important;
   font-weight: 900;
@@ -67,11 +78,16 @@ td {
 }
 
 .footer{
+  
   text-align: center;
 
   background-color:#01987a;
   color: white;
   overflow: auto;
+  position:absolute;
+  bottom:0px;
+  right:0;
+  left: 0;
 
 
 }
@@ -101,5 +117,7 @@ td {
 }
 @media screen and (max-width: 426px) {
 
-  
+  #btn-back{
+    margin-top: 0px !important;
+  }
 }
